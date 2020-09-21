@@ -1,0 +1,17 @@
+#clock{
+    font-size: 120px;
+    left: 500px;
+    top: 200px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+#result{
+    font-size: 120px;
+    position: absolute;
+    left: 350px;
+    top: 350px;
+    padding: 0;
+    margin: 0;
+}
