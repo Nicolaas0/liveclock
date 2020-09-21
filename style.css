@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body{
+    background-color: rgb(216, 185, 144);
+}
+
 #clock{
-    font-size: 120px;
-    left: 500px;
+    font-size: 130px;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(141, 37, 132);
+    left: 450px;
     top: 200px;
     position: absolute;
     padding: 0;
@@ -8,10 +16,13 @@
 }
 
 #result{
-    font-size: 120px;
+    font-size: 90px;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(141, 37, 132);
     position: absolute;
-    left: 350px;
+    left: 450px;
     top: 350px;
     padding: 0;
     margin: 0;
 }
+
