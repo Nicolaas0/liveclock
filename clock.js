@@ -15,6 +15,19 @@ function time(i){
     return i;
 }
 
+function getDays(){
+  var date = new Date();
+  var h = date.getHours();
+
+  if (h < 10) {
+    document.getElementById('day').innerHTML = "Good morning!";
+  } else if (h < 18) {
+    document.getElementById('day').innerHTML = "Good day!";
+  } else if(h < 24) {
+    document.getElementById('day').innerHTML = "Good night!"
+  }
+}
+
 function Getname() {
     var txt;
     var txt2;
@@ -30,5 +43,3 @@ function Getname() {
       document.getElementById("result").innerHTML = "Hello " + txt2;
     }
 }
-
-
