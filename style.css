@@ -23,12 +23,59 @@ h1{
 #result{
     font-size: 90px;
     font-family: 'Fredoka One', cursive;
-    background:linear-gradient(rgb(255, 102, 0), rgb(231, 45, 200));
+    background:linear-gradient(rgb(255, 102, 0), rgb(240, 56, 65));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: rgb(141, 37, 132);
     position: absolute;
-    left: 450px;
+    left: 830px;
+    top: 350px;
+    padding: 0;
+    margin: 0;
+}
+
+#st1{
+    position: absolute;
+    left: 500px;
+    top: 10px;
+    width: 300px;
+}
+
+#st2{
+    position: absolute;
+    width: 18%;
+    top: 410px;
+    left: 1120px;
+}
+
+#st3{
+    position: absolute;
+    width: 20%;
+    top: 460px;
+    left: 0;
+    width: 220px;
+}
+
+#st4{
+    position: absolute;
+    width: 20%;
+}
+
+#st5{
+    position: absolute;
+    width: 20%;
+    left: 1093px;
+}
+
+#day{
+    font-size: 90px;
+    font-family: 'Fredoka One', cursive;
+    background:linear-gradient(rgb(255, 102, 0), rgb(240, 56, 65));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(141, 37, 132);
+    position: absolute;
+    left: 190px;
     top: 350px;
     padding: 0;
     margin: 0;
@@ -43,8 +90,6 @@ h1{
     animation-duration: 1.5s;
 }
 
-.ball {
-    position: absolute;
-    border-radius: 100%;
-    opacity: 0.7;
-  }
+.animate__animated.animate__tada{
+    animation-duration: 1.2s;
+}

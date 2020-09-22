@@ -20,12 +20,12 @@ function getDays(){
   var h = date.getHours();
 
   if (h < 10) {
-    document.getElementById('day').innerHTML = "Good morning!";
+    document.getElementById('day').innerHTML = "Good morning";
   } else if (h < 18) {
-    document.getElementById('day').innerHTML = "Good day!";
+    document.getElementById('day').innerHTML = "Good day";
   } else if(h < 24) {
-    document.getElementById('day').innerHTML = "Good night!"
-  }
+    document.getElementById('day').innerHTML = "Good night";
+}
 }
 
 function Getname() {
@@ -37,9 +37,9 @@ function Getname() {
       document.getElementById("result").innerHTML = txt;
       setTimeout(function(){
         window.location.reload(1);
-     }, 500);
+     }, 5000);
     } else {
       txt2 = name;
-      document.getElementById("result").innerHTML = "Hello " + txt2;
+      document.getElementById("result").innerHTML = txt2 + "!!";
     }
 }
