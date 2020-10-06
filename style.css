@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 body{
-    background-color: wheat;
-    background-image: url(img/Leave-10s-1366px.svg);
+    background-color: lightsalmon;
 }
 
 
@@ -23,12 +22,12 @@ h1{
 #result{
     font-size: 90px;
     font-family: 'Fredoka One', cursive;
-    background:linear-gradient(rgb(255, 102, 0), rgb(240, 56, 65));
+    background:rgb(221, 78, 85);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: rgb(141, 37, 132);
     position: absolute;
-    left: 830px;
+    left: 900px;
     top: 350px;
     padding: 0;
     margin: 0;
@@ -36,46 +35,21 @@ h1{
 
 #st1{
     position: absolute;
-    left: 500px;
+    width: 20%;
     top: 10px;
-    width: 300px;
+    left: 100px;
 }
 
-#st2{
-    position: absolute;
-    width: 18%;
-    top: 410px;
-    left: 1120px;
-}
-
-#st3{
-    position: absolute;
-    width: 20%;
-    top: 460px;
-    left: 0;
-    width: 220px;
-}
-
-#st4{
-    position: absolute;
-    width: 20%;
-}
-
-#st5{
-    position: absolute;
-    width: 20%;
-    left: 1093px;
-}
 
 #day{
     font-size: 90px;
     font-family: 'Fredoka One', cursive;
-    background:linear-gradient(rgb(255, 102, 0), rgb(240, 56, 65));
+    background-color: rgb(240, 56, 65);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: rgb(141, 37, 132);
     position: absolute;
-    left: 190px;
+    left: 250px;
     top: 350px;
     padding: 0;
     margin: 0;
