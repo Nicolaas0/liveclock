@@ -43,3 +43,20 @@ function Getname() {
       document.getElementById("result").innerHTML = txt2 + "!!";
     }
 }
+
+function changeTime(){
+  var time = new Date;
+  var h = time.getHours();
+  if (h < 10) {
+    document.getElementById('st1').src= "https://media.giphy.com/media/TercUvhYRPkmkDUNZk/giphy.gif";
+    document.body.style.backgroundColor="lightcoral";
+  } else if (h < 18) {
+    document.getElementById('st1').innerHTML = "https://media.giphy.com/media/h2C7YYwEAj02wGwmfy/giphy.gif";
+    document.body.style.backgroundColor="lightsalmon";
+    document.getElementById('day').style.backgroundColor="tomato";
+  } else if(h < 24) {
+    document.getElementById('st1').src = "https://media.giphy.com/media/10Mgxh2ctqqz9m/giphy.gif";
+    document.body.style.backgroundColor="black";
+    document.getElementById('day').style.backgroundColor="lightslategrey"
+}
+}
