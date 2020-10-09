@@ -56,7 +56,9 @@ function changeTime(){
     document.getElementById('day').style.backgroundColor="tomato";
   } else if(h < 24) {
     document.getElementById('st1').src = "https://media.giphy.com/media/10Mgxh2ctqqz9m/giphy.gif";
-    document.body.style.backgroundColor="black";
-    document.getElementById('day').style.backgroundColor="lightslategrey"
+    document.body.style.backgroundColor="rgb(15, 29, 68)";
+    document.getElementById('day').style.backgroundImage="url(img/pawel-czerwinski-bX9B9c-YasY-unsplash.jpg)"
+    document.getElementById('clock').style.backgroundImage="url(img/brandon-vazquez.jpg)"
+    document.getElementById('result').style.backgroundImage="url(img/pawel-czerwinski-bX9B9c-YasY-unsplash.jpg)"
 }
 }
