@@ -9,16 +9,18 @@ body{
 
 h1{
     font-size: 130px;
-    background-image:url("");
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Fredoka One', cursive;
-    color: rgb(141, 37, 132);
-    left: 450px;
+    left: 490px;
     top: 200px;
     position: absolute;
     padding: 0;
     margin: 0;
+    font-size: 64px;
+    color: #ffbf00;
+    font-family: 'Fredoka One', cursive;
+    font-size: 120px;
 }
 
 #result{
@@ -49,7 +51,6 @@ h1{
     background-image:url("");
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: rgb(141, 37, 132);
     position: absolute;
     left: 350px;
     top: 350px;
@@ -69,3 +70,4 @@ h1{
 .animate__animated.animate__tada{
     animation-duration: 1.2s;
 }
+
