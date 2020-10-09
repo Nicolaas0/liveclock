@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 body{
-    background-color: lightsalmon;
+    background-image: url("img/ashley-whitlatch-36aGnv29Ss0-unsplash\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 
 h1{
     font-size: 130px;
-    background:linear-gradient(rgb(255, 51, 0), rgb(159, 39, 214));
+    background-image:url("");
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Fredoka One', cursive;
@@ -22,12 +24,12 @@ h1{
 #result{
     font-size: 90px;
     font-family: 'Fredoka One', cursive;
-    background:rgb(221, 78, 85);
+    background-image:url("");
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: rgb(141, 37, 132);
     position: absolute;
-    left: 900px;
+    left: 850px;
     top: 350px;
     padding: 0;
     margin: 0;
@@ -44,12 +46,12 @@ h1{
 #day{
     font-size: 90px;
     font-family: 'Fredoka One', cursive;
-    background-color: rgb(240, 56, 65);
+    background-image:url("");
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: rgb(141, 37, 132);
     position: absolute;
-    left: 250px;
+    left: 350px;
     top: 350px;
     padding: 0;
     margin: 0;
