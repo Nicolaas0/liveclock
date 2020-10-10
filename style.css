@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 body{
-    background-image: url("img/ashley-whitlatch-36aGnv29Ss0-unsplash\ \(1\).jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    color: rgb(77, 92, 221);
 }
 
 
@@ -21,7 +20,7 @@ h1{
     color: #ffbf00;
     font-family: 'Fredoka One', cursive;
     font-size: 120px;
-}
+}   
 
 #result{
     font-size: 90px;
